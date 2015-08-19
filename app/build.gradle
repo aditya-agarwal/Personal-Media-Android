@@ -23,4 +23,6 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:22.2.0'
     compile project(':libjingle_peerconnection_java')
+    compile 'com.github.nkzawa:socket.io-client:0.3.0'
+
 }
